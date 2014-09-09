@@ -1,0 +1,143 @@
+{
+	"GameTimeObject":[
+		
+		{"Length of Season":"5000", "Length of Day":"500",
+		"Season On":"false", "Time On":"false"}
+	
+	],
+	
+	"General":[
+      {
+         "Game Name":"Final Fantasy",
+         "Fight Background":"media/snow.png",
+         "Instructions":"Instructions"
+      }
+   ],
+	
+   "Objects":[
+      {
+         "uniqueid":"Item10",
+         "abilities":"Pickupable",
+         "imagepath":"media\/resources\/Item\/Item10.png",
+         "name":"ITEM",
+         "map":"952946432",
+
+         "Pickupable":"Disc;;7;;0;;3;;0;;0;;StatsBooster",
+
+         "type":"MapItem",
+         "y":"50",
+         "x":"0"
+      },
+   	  {
+         "uniqueid":"Character62",
+         "abilities":"Questable",
+         "imagepath":"media\/resources\/Character\/Character61.png",
+         "name":"VJO",
+         "map":"952946432",
+         "Questable":"Item Quest;;Quest01;;Item10;;Pick up the item to complete the quest!",
+         "type":"NonPlayerCharacter",
+         "y":"30",
+         "x":"23"
+      },
+      {
+         "uniqueid":"Character6",
+         "abilities":"Questable",
+         "imagepath":"media\/resources\/Character\/Character43.png",
+         "name":"POO",
+         "map":"169619728",
+         "Questable":"Talk Quest;;Quest11;;Character7;;Talk to POO2 to complete the quest!",
+         "type":"NonPlayerCharacter",
+         "y":"30",
+         "x":"30"
+      },
+      {
+         "uniqueid":"Character7",
+         "abilities":"Talkable",
+         "imagepath":"media\/resources\/Character\/Character1.png",
+         "name":"POO2",
+         "map":"169619728",
+         "Talkable":"I am POO2",
+         "type":"NonPlayerCharacter",
+         "y":"10",
+         "x":"40"
+      },
+      {
+         "uniqueid":"Character2",
+         "abilities":"Talkable",
+         "imagepath":"media\/resources\/Character\/Character1.png",
+         "name":"Character2",
+         "map":"169619728",
+         "Talkable":"I NEED 2 LEAVE",
+         "type":"PlayerCharacter",
+         "y":"5",
+         "x":"1"
+      },
+      {
+         "Tile 1 MapY":"0",
+         "Tile 1 MapX":"0",
+         "Tile 1 MapTileID":"Tile31",
+         "Type":"Transition",
+         "Tile 2 MapMapID":"952946432",
+         "Tile 1 MapMapID":"169619728",
+         "type":"TransitionObject",
+         "Transitionable":"0;;0;;0;;0;;169619728;;952946432",
+         "uniqueid":"1875853829",
+         "abilities":"Transitionable",
+         "Tile 2 MapX":"0",
+         "name":"map1to2",
+         "Tile 2 MapY":"0",
+         "Tile 2 MapTileID":"Tile6",
+         "x":"20",
+         "map":"169619728",
+         "imagepath":"media\/resources\/Tile\/Tile30.png",
+         "y":"20"
+      }
+   ],
+   "Tiles":[
+      {
+         "uniqueid":"Tile31",
+         "abilities":"Walkable",
+         "imagepath":"media\/resources\/Tile\/Tile30.png",
+         "name":"Tile31",
+         "map":"169619728",
+         "type":"",
+         "Walkable":"true",
+         "y":"0",
+         "x":"0"
+      },
+      {
+         "uniqueid":"Tile6",
+         "abilities":"Walkable",
+         "imagepath":"media\/resources\/Tile\/Tile5.png",
+         "name":"Tile6",
+         "map":"952946432",
+         "type":"",
+         "Walkable":"true",
+         "y":"0",
+         "x":"0"
+      }
+   ],
+   "Maps":[
+      {
+         "charitemmap":"empty empty empty empty empty empty \nempty empty empty empty empty empty \nempty empty empty empty empty empty \nempty empty empty empty empty empty \nempty empty empty empty empty empty \nempty empty empty empty empty empty \n",
+         "uniqueid":"952946432",
+         "subscription":"false",
+         "name":"map1",
+         "map":"Tile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \n",
+         "tilemap":"Tile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \nTile6 Tile6 Tile6 Tile6 Tile6 Tile6 \n",
+         "subscription":"true",
+         "code":"yuzhouispoo"
+
+      },
+      {
+         "charitemmap":"empty empty empty empty empty empty \nempty empty empty empty empty empty \nempty empty empty empty empty empty \nempty empty empty empty empty empty \nempty empty empty empty empty empty \nempty Character2 empty empty empty empty \n",
+         "uniqueid":"169619728",
+         "subscription":"true",
+         "name":"map2",
+         "map":"Tile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \n",
+         "tilemap":"Tile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \nTile31 Tile31 Tile31 Tile31 Tile31 Tile31 \n",
+         "subscription":"false",
+         "code":" "
+      }
+   ]
+}

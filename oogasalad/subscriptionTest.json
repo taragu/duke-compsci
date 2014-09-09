@@ -1,0 +1,78 @@
+{
+   
+   
+   "Tiles":[
+      {
+         "uniqueid":"Tile33",
+         "abilities":"Walkable",
+         "imagepath":"media\/resources\/Tile\/Tile32.png",
+         "name":"Tile33",
+         "map":"1908670107",
+         "type":"",
+         "Walkable":"true",
+         "y":"0",
+         "x":"0"
+      },
+      {
+         "uniqueid":"Tile43",
+         "abilities":"Walkable",
+         "imagepath":"media\/resources\/Tile\/Tile42.png",
+         "name":"Tile43",
+         "map":"36763366",
+         "type":"",
+         "Walkable":"true",
+         "y":"0",
+         "x":"0"
+      }
+   ],
+   "Objects":[
+      {
+         "uniqueid":"Character2",
+         "abilities":"",
+         "imagepath":"media\/resources\/Character\/Character1.png",
+         "name":"Character2",
+         "map":"1908670107",
+         "type":"PlayerCharacter",
+         "y":"4",
+         "x":"0"
+      }
+   ],
+   "Event":[
+      {
+         "Tile 1 MapY":"0",
+         "Tile 1 MapX":"4",
+         "Tile 1 MapTileID":"Tile43",
+         "Type":"Transition",
+         "Tile 2 MapMapID":"1908670107",
+         "Tile 1 MapMapID":"36763366",
+         "type":"TransitionObject",
+         "Transitionable":"4;;0;;4;;0;;36763366;;1908670107",
+         "uniqueid":"1962760300",
+         "abilities":"Transitionable",
+         "Tile 2 MapX":"4",
+         "name":"movement",
+         "Tile 2 MapY":"0",
+         "Tile 2 MapTileID":"Tile33"
+      }
+   ],
+   "Maps":[
+      {
+         "charitemmap":"empty empty empty empty empty \nempty empty empty empty empty \nempty empty empty empty empty \nempty empty empty empty empty \nCharacter2 empty empty empty empty \n",
+         "uniqueid":"1908670107",
+         "name":"map2",
+         "map":"Tile33 Tile33 Tile33 Tile33 Tile33 \nTile33 Tile33 Tile33 Tile33 Tile33 \nTile33 Tile33 Tile33 Tile33 Tile33 \nTile33 Tile33 Tile33 Tile33 Tile33 \nTile33 Tile33 Tile33 Tile33 Tile33 \n",
+         "tilemap":"Tile33 Tile33 Tile33 Tile33 Tile33 \nTile33 Tile33 Tile33 Tile33 Tile33 \nTile33 Tile33 Tile33 Tile33 Tile33 \nTile33 Tile33 Tile33 Tile33 Tile33 \nTile33 Tile33 Tile33 Tile33 Tile33 \n",
+         "subscription":"true",
+         "code":"ipaidforthis"
+      },
+      {
+         "charitemmap":"empty empty empty empty empty \nempty empty empty empty empty \nempty empty empty empty empty \nempty empty empty empty empty \nempty empty empty empty empty \n",
+         "uniqueid":"36763366",
+         "name":"map1",
+         "map":"Tile43 Tile43 Tile43 Tile43 Tile43 \nTile43 Tile43 Tile43 Tile43 Tile43 \nTile43 Tile43 Tile43 Tile43 Tile43 \nTile43 Tile43 Tile43 Tile43 Tile43 \nTile43 Tile43 Tile43 Tile43 Tile43 \n",
+         "tilemap":"Tile43 Tile43 Tile43 Tile43 Tile43 \nTile43 Tile43 Tile43 Tile43 Tile43 \nTile43 Tile43 Tile43 Tile43 Tile43 \nTile43 Tile43 Tile43 Tile43 Tile43 \nTile43 Tile43 Tile43 Tile43 Tile43 \n",
+         "subscription":"false",
+         "code":" "
+      }
+   ]
+}

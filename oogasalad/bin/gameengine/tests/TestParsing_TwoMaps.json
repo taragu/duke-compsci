@@ -1,0 +1,71 @@
+{
+	"Tiles":[{"uniqueid":"400923323","imagepath":"media/Tile1000.png",
+		"name":"400923323","Walkable":"true"},
+		
+		{"uniqueid":"1684432181","imagepath":"media/Tile1000.png",
+		"name":"1684432181","Walkable":"true"},
+		
+		{"uniqueid":"2005243930","imagepath":"media/Tile1000.png",
+		"name":"2005243930","Walkable":"true"},
+		
+		{"uniqueid":"1499821714","imagepath":"media/Tile1000.png",
+		"name":"1499821714","Walkable":"true"},
+		
+		{"uniqueid":"757711815","imagepath":"media/Tile1000.png",
+		"name":"757711815","Walkable":"true"},
+		
+		{"uniqueid":"85939859","imagepath":"media/grass4.png",
+		"name":"85939859","Walkable":"true"},
+		
+		{"uniqueid":"631229959","imagepath":"media/grass4.png",
+		"name":"631229959","Walkable":"true"},
+		
+		{"uniqueid":"1161042120","imagepath":"media/grass4.png",
+		"name":"1161042120","Walkable":"true"}],
+		
+	
+	
+	"Maps":[{"uniqueid":"2057394906","name":"map1",
+		"map":"1161042120 1161042120 1161042120 1161042120 1161042120 \n 1161042120 1161042120 2005243930 1684432181 1161042120 \n 1161042120 1161042120 85939859 757711815 1161042120 \n 1161042120 1161042120 631229959 400923323 1161042120 \n 1161042120 1161042120 1161042120 1161042120 1161042120"},
+		
+		{"uniqueid":"1440363637","name":"map2",
+		"map":"1499821714 1499821714 1499821714 1499821714 1499821714 \n 1499821714 1499821714 1499821714 1499821714 1499821714 \n 1499821714 1499821714 1499821714 1499821714 1499821714 \n 1499821714 1499821714 1499821714 1499821714 1499821714 \n 1499821714 1499821714 1499821714 1499821714 1499821714"}],
+		
+	
+	"Objects":[
+	{"uniqueid":"123D","name":"Misty", "type":"NonPlayerCharacter","x":"200", "y":"100",
+	"imagepath":"media/Item100.png",
+	"abilities":"Talkable","Talkable":"Hello!;;Bye!",
+	"map":"1440363637"},
+	
+	{"uniqueid":"2541E","name":"Dwight", "type":"PlayerCharacter","x":"50", "y":"100",
+	"imagepath":"media/Sprite.png",
+	"abilities":"Talkable","Talkable":"Bears eat beets;;idiot",
+	"map":"1440363637"},
+	
+	{"uniqueid":"s1242","name":"Creed", "type":"PlayerCharacter","x":"50", "y":"100",
+	"imagepath":"media/water4.png",
+	"abilities":"Talkable","Talkable":"Bears eat beets;;idiot",
+	"map":"1440363637"},
+	
+	{"uniqueid":"133H","name":"Ash", "type":"NonPlayerCharacter","x":"100", "y":"100",
+	"imagepath":"media/Item100.png",
+	"abilities":"Talkable","Talkable":"Hello!;;Bye!",
+	"map":"2057394906"},
+	
+	{"uniqueid":"4782A","name":"Door", "type":"TransitionObject","x":"300", "y":"300",
+	"imagepath":"media/Character108.png",
+	"abilities":"Transitionable",
+	"Transitionable":"100;;100;;0;;0;;1440363637;;2057394906",
+	"map":"1440363637"}
+	
+	{"uniqueid":"713T","name":"Bert", "type":"MapItem","x":"0", "y":"0",
+	"imagepath":"media/Character0.png",
+	"abilities":"Pickupable",
+	"Pickupable":"Bert;;Strength=3 Speed=7;;Map Battle",
+	"map":"1440363637"}
+	
+	
+	]
+
+}

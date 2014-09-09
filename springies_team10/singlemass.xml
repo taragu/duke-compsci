@@ -1,0 +1,15 @@
+<model>
+    <name>Ball</name>
+    <author>Douglas DeCarlo</author>
+
+    <nodes>
+    	<fixed id="m0" x="325" y="300"/>
+        <mass id="m1" x="425" y="300"/>
+    </nodes>
+    
+    <links>
+    	<spring a="m0" b="m1" restlength="90.0" constant="1.5"/>
+    </links>
+
+</model>
+
